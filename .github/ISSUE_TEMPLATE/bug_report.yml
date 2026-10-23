@@ -1,0 +1,48 @@
+name: Bug report
+description: Something in Build Tonight doesn't work as expected.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open …
+        2. Click …
+        3. See …
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      description: Shown in Settings → About.
+      placeholder: 0.16.0
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      placeholder: macOS 15.1
+    validations:
+      required: true
+  - type: dropdown
+    id: model
+    attributes:
+      label: AI model
+      description: Which model was generating ideas when it happened?
+      options:
+        - Apple on-device model
+        - My own API key
+        - Offline ideas (no AI)
+        - Not sure
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots or anything else
