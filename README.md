@@ -25,7 +25,9 @@ The first public release is on its way. Installers will appear on the
 
 ## Feedback
 
-Found a bug or have an idea? [Open an issue](https://github.com/idkatanica/buildtonight/issues).
+Found a bug or have an idea? [Open an issue](https://github.com/idkatanica/buildtonight/issues/new/choose).
+
+See [CHANGELOG.md](CHANGELOG.md) for what changed in each version.
 
 ---
 
